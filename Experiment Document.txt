@@ -1,0 +1,34 @@
+﻿	A program in MATLAB to calculate energy emmited by the sun.
+
+
+
+About MATLAB :
+
+MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment. A proprietary programming languagedeveloped by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran and Python.
+
+Aim
+
+	To calculate the energy emmited by the sun in one second from planck’s theory of black body radiation using the graph of wavelength vs energy density.
+
+
+Procedure
+
+Generate a  dataset  of  wavelength from 0nm to 20000nm in intervals of 10nm .
+Compute energy density from wavelength(lamda), using the formula,
+Plot a graph of lamda vs energy-density.
+	
+Formula:
+
+	E_den= ....
+	sun_vol=....
+
+
+Calculation
+
+	Integrate to find the area under the curve using trapiziodal method( trapz() ).
+The area under the curve represents the total energy density of the sun.Thus,the total energy can be obtained by multiplying Energy density with the volume of the sun.
+
+
+Result
+
+	The total energy emmited by the sun in one second is 3.842117e+26 W.
