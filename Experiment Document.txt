@@ -19,8 +19,8 @@ Plot a graph of lamda vs energy-density.
 	
 Formula:
 
-	E_den= ....
-	sun_vol=....
+	E_den= ....(refer SunEnergy.m script file)
+	sun_vol=....(refer SunEnergy.m script file)
 
 
 Calculation
